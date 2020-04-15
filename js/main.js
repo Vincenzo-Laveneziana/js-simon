@@ -1,9 +1,9 @@
 console.log("OK andiamo");
 
-var choise = parseInt(prompt("Inserisci un max range di numeri"))
+var choise = parseInt(prompt("Inserisci il numero max del range"))
 
 while( choise == 0 || choise <=5 || isNaN(choise)){
-  choise = parseInt(prompt("Inserisci un max range di numeri ccccc"))
+  choise = parseInt(prompt("Assicurati di aver inserito un numero valido"))
 }
 
 var casualNum = randomNumbers(1, choise)
@@ -32,7 +32,7 @@ setTimeout(function () {
     console.log("Non ti sei ricordato nessun numero");
   }
   
-},3000)
+},30000)
 
 
 
